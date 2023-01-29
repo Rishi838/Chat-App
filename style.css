@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    /* background-color: beige; */
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'Varela Round', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 47px;
+    padding: 0 2px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: rgb(210, 232, 230);
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width :70%;
+    border-radius: 30px;
+    /* background: url('bb.jfif'); */
+}
+.bottom{
+    position: sticky;
+    background-color: rgb(168, 234, 230);
+    height: 90px;
+    bottom:0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.icons{
+    margin: 10px 0px;
+}
+.icons i{
+    cursor: pointer;
+}
+#ProgressBar{
+   width: 80vw;
+}
